@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: montserrat;
+    background-color: #ececec;
+}
+
+/* ball */
+
+
+
+.eyes {
+    width: 100%;
+    top: 0;
+}
+
+.eye {
+    width: 170px;
+    height: 150px;
+
+    background-color: #ffffff;
+    border-radius: 75%;
+    margin: 20px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.ball {
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+.profil {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.profil-img {
+    width: 25%;
+    height: 50%;
+}
+
+.profil h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: arial;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #222222;
+
+}
+
+.profil h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: small;
+    color: #484848;
+    letter-spacing: 2px;
+}
+
+
+
+.profil li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 50px;
+    margin-top: 20px;
+
+}
+
+.profil li a {
+    color: #484848;
+
+}
+
+.profil li a i {
+    font-size: 2rem;
+}
+
+small {
+    font-size: 13px;
+}
+
+.fa-instagram {
+    transition: ease-in .6s;
+}
+
+.fa-github {
+    transition: ease-in .8s;
+}
+
+.fa-envelope {
+    transition: ease-in .10s;
+}
+
+.fa-linkedin {
+    transition: ease-in .12s;
+}
+
+@media (max-width:850px) {
+    .eye {
+        width: 35%;
+    }
+}
+
+@media (max-width:570px) {
+    .eye {
+        width: 25%;
+        height: 50%;
+    }
+}

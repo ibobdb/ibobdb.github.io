@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13903e6a2a.js" crossorigin="anonymous"></script>
+    <title>Home | Boby Nugraha Pratama</title>
+</head>
+
+<body>
+    <section class="home" id="#home">
+        <div class="profil">
+            <div class="head" id="head">
+
+                <div class="eyes ">
+
+                    <div class="eye shadow p-3 mb-5 bg-white rounded-cirlce">
+                        <div class="ball "></div>
+                    </div>
+                    <div class="eye shadow p-3 mb-5 bg-white rounded-circle">
+                        <div class="ball"></div>
+                    </div>
+                </div>
+            </div>
+            <h2>Boby Nugraha Pratama</h2>
+            <h3>Web Developer</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/ibobdb/"><i class="fab fa-instagram"></i> </a></li>
+                <li><a href="https://github.com/ibobdb"><i class="fab fa-github"></i> </a></li>
+                <li><a href=""><i class="fas fa-envelope"></i> </a></li>
+                <li><a href="https://www.linkedin.com/in/boby-nugraha-pratama-4596231a3/"><i
+                            class="fab fa-linkedin"></i> </a></li>
+
+            </ul>
+            <hr>
+            <small class="text-muted mt-5">Boby Nugraha Pratama © 2020</small>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            var balls = document.getElementsByClassName('ball');
+            document.onmousemove = function () {
+                console.log('ok')
+                var x = event.clientX * 100 / window.innerWidth + "%";
+                var y = event.clientY * 100 / window.innerHeight + "%";
+                for (var i = 0; i < 2; i++) {
+                    balls[i].style.left = x;
+                    balls[i].style.top = y;
+                    balls[i].style.transform = "translate(-" + x + ",-" + y + ")";
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
