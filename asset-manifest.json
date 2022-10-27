@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.d00e3ff2.css",
-    "main.js": "/static/js/main.900102cf.js",
-    "static/media/login-stisla.png": "/static/media/login-stisla.16e5029e36f187722c0c.png",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/FnBKasir.png": "/static/media/FnBKasir.868449df6020723657c9.png",
-    "static/media/p-1.png": "/static/media/p-1.cb1ae8cb0ce5f7af8d2e.png",
-    "static/media/cart.png": "/static/media/cart.669c35d932b76009dcaf.png",
-    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/hall-dashboard.png": "/static/media/hall-dashboard.f57b96b851d164faf569.png",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/ibob-port.png": "/static/media/ibob-port.654d78420d72425b49b7.png",
-    "static/media/apriori.png": "/static/media/apriori.4d5cad9332a0902e2280.png",
-    "static/media/local.png": "/static/media/local.16d25e3b41fa2b1ddd52.png",
-    "static/media/boby.png": "/static/media/boby.60a7eb27b5ca24e16355.png",
-    "static/media/discord.png": "/static/media/discord.d437d824dc068f075720.png",
-    "index.html": "/index.html",
-    "main.d00e3ff2.css.map": "/static/css/main.d00e3ff2.css.map",
-    "main.900102cf.js.map": "/static/js/main.900102cf.js.map"
+    "main.css": "/index.html/static/css/main.f9e7f770.css",
+    "main.js": "/index.html/static/js/main.19d1148a.js",
+    "static/media/login-stisla.png": "/index.html/static/media/login-stisla.16e5029e36f187722c0c.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/index.html/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/FnBKasir.png": "/index.html/static/media/FnBKasir.868449df6020723657c9.png",
+    "static/media/p-1.png": "/index.html/static/media/p-1.cb1ae8cb0ce5f7af8d2e.png",
+    "static/media/cart.png": "/index.html/static/media/cart.669c35d932b76009dcaf.png",
+    "static/media/fontawesome-webfont.eot": "/index.html/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/index.html/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/index.html/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/hall-dashboard.png": "/index.html/static/media/hall-dashboard.f57b96b851d164faf569.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/index.html/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/ibob-port.png": "/index.html/static/media/ibob-port.654d78420d72425b49b7.png",
+    "static/media/apriori.png": "/index.html/static/media/apriori.4d5cad9332a0902e2280.png",
+    "static/media/local.png": "/index.html/static/media/local.16d25e3b41fa2b1ddd52.png",
+    "static/media/boby.png": "/index.html/static/media/boby.60a7eb27b5ca24e16355.png",
+    "static/media/discord.png": "/index.html/static/media/discord.d437d824dc068f075720.png",
+    "index.html": "/index.html/index.html",
+    "main.f9e7f770.css.map": "/index.html/static/css/main.f9e7f770.css.map",
+    "main.19d1148a.js.map": "/index.html/static/js/main.19d1148a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d00e3ff2.css",
-    "static/js/main.900102cf.js"
+    "static/css/main.f9e7f770.css",
+    "static/js/main.19d1148a.js"
   ]
 }
