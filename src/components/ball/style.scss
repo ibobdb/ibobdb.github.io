@@ -1,0 +1,31 @@
+.ball {
+    z-index: -999;
+    // max-width: 150px;
+    // min-width: 50px;
+    // max-height: 150px;
+    // min-height: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba($color: #D9D9D9, $alpha: .26);
+    // background-color: red;
+    // right: 0;
+    // top: 0;
+}
+
+.m-top-right {
+    top: -100px;
+    right: -100px;
+}
+
+.m-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-bottom-left {
+    bottom: -100px;
+    left: -100px;
+}

@@ -1,0 +1,116 @@
+.hero {
+    // background-color: blue;
+    // display: inline-block block;
+    // width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-10%, -5%);
+    .hero-name,
+    .hero-desc,
+    .hero-button {
+        display: block;
+    }
+    .hero-name {
+        font-size: 64px;
+        color: #37474F;
+        font-weight: 600;
+        animation: fade-in 3.5s steps(40, end);
+    }
+    .hero-desc {
+        font-size: 20px;
+        color: #727B80;
+        font-weight: 400;
+        line-height: 3rem;
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em;
+        /* Adjust as needed */
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    .hero-button {
+        margin-top: 2rem;
+        padding: 15px 90px;
+        background-color: #fff;
+        color: #37474F;
+        border: 1px solid rgba($color: #37474F, $alpha: .5);
+        // border: none;
+        font-size: 16px;
+        border-radius: 8px;
+        position: relative;
+        cursor: pointer;
+        transition: ease .5s;
+        &:hover {
+            background-color: #F7B633;
+            color: #fff;
+            border: 1px solid rgba($color: #F7B633, $alpha: .5);
+        }
+    }
+    .social-list {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        // background-color: red;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10rem;
+        overflow: hidden;
+        animation: typing 1s steps(40, end);
+        li {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: 1px solid rgba($color: #37474F, $alpha: .5);
+            border-radius: 4px;
+            margin-right: 10px;
+            font-size: 24px;
+            background-color: #fff;
+            span {
+                color: #37474F;
+            }
+            &:hover {
+                transition: ease-out .5s;
+                span {
+                    color: #29343a;
+                }
+                border: 1px solid rgba($color: #F7B633, $alpha: 1);
+            }
+        }
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        color: rgba($color: #37474F, $alpha: 0.1);
+    }
+    to {
+        color: rgba($color: #37474F, $alpha: 1);
+    }
+}

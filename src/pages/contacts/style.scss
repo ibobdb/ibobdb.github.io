@@ -1,0 +1,45 @@
+.contact-content {
+    margin-top: 200px;
+    padding: 10px 40px;
+    .element-list {
+        padding: 10px 40px;
+        .title {
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+            color: #37474F;
+        }
+        .value {
+            color: #727B80;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .form-send-message {
+        margin-top: 30px;
+        .form-field {
+            margin-bottom: 10px;
+            display: block;
+            border: 1px solid #37474F;
+            border-radius: 4px;
+            padding: 10px 20px;
+            font-family: 'Blinker', sans-serif;
+            &:focus {
+                color: #727B80;
+                border: 1px solid orange;
+            }
+        }
+        textarea {
+            line-height: 1.5em;
+        }
+        .btn-send {
+            padding: 10px 30px;
+            background-color: #37474F;
+            border-radius: 4px;
+            color: #fff;
+            border: none;
+            margin-left: auto;
+            cursor: pointer;
+        }
+    }
+}
