@@ -1,13 +1,11 @@
 import "./style.scss";
-import Navbar from "../../components/navbar";
+
 import Ball from "../../components/ball";
 import PageHeader from "../../components/page-header";
-import Card from "../../components/card";
 import Footer from "../../components/footer";
 export default function index() {
   return (
     <div className="skills">
-      <Navbar />
       <PageHeader title="Skills" />
       <div className="container">
         <div className="skill-list">

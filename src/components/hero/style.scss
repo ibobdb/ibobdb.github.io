@@ -1,11 +1,4 @@
 .hero {
-    // background-color: blue;
-    // display: inline-block block;
-    // width: 100%;
-    position: absolute;
-    top: 30%;
-    left: 15%;
-    transform: translate(-10%, -5%);
     .hero-name,
     .hero-desc,
     .hero-button {
@@ -36,9 +29,14 @@
     }
     .hero-button {
         margin-top: 2rem;
-        padding: 15px 90px;
+        padding: 15px 0px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
         background-color: #fff;
         color: #37474F;
+        font-weight: 500;
         border: 1px solid rgba($color: #37474F, $alpha: .5);
         // border: none;
         font-size: 16px;
@@ -112,5 +110,14 @@
     }
     to {
         color: rgba($color: #37474F, $alpha: 1);
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .hero-name {
+        font-size: 40px !important;
+    }
+    .hero-desc {
+        font-size: 16px !important;
     }
 }

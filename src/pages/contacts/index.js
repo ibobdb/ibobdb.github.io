@@ -1,12 +1,10 @@
 import "./style.scss";
-import Navbar from "../../components/navbar";
 import Ball from "../../components/ball";
 import PageHeader from "../../components/page-header";
 import Footer from "../../components/footer";
 export default function index() {
   return (
     <div className="Contact">
-      <Navbar />
       <PageHeader title="Contact" />
       <div className="contact-content">
         <div className="container">
@@ -31,7 +29,7 @@ export default function index() {
                 id="txtid"
                 name="txtname"
                 rows="12"
-                cols="100"
+                cols="60"
                 maxlength="200"
                 className="form-field"
                 placeholder="Write here"

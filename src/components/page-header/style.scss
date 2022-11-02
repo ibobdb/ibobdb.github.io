@@ -1,7 +1,12 @@
 .page-header {
     display: block;
-    top: 20%;
-    position: absolute;
+    top: 90%;
+    margin-top: 160px;
+    padding-bottom: 40px;
+    // bottom: 0;
+    z-index: 99;
+    // background-color: red;
+    // position: absolute;
     span {
         font-size: 40px;
         font-weight: 600;

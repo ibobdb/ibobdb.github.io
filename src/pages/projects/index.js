@@ -1,4 +1,3 @@
-import Navbar from "../../components/navbar";
 import Ball from "../../components/ball";
 import PageHeader from "../../components/page-header";
 import Card from "../../components/card";
@@ -9,7 +8,6 @@ import Ecommerce from "../../assets/img/cart.png";
 import FnbKasir from "../../assets/img/FnBKasir.png";
 import LoginStisla from "../../assets/img/login-stisla.png";
 import Ibob from "../../assets/img/ibob-port.png";
-import Localhost from "../../assets/img/local.png";
 import Apriori from "../../assets/img/apriori.png";
 import UndanganMantan from "../../assets/img/p-1.png";
 import DiscordBot from "../../assets/img/discord.png";
@@ -17,7 +15,6 @@ import "./style.scss";
 export default function index() {
   return (
     <div className="projects">
-      <Navbar />
       {/* Main Content Home */}
       <PageHeader title="Projects" />
       <div className="container">
